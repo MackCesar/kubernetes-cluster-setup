@@ -31,8 +31,8 @@ This repository contains scripts and manifests for setting up a multi-node Kuber
 ```./scripts/teardown-cluster.sh```
 
 4. Monitor the cluster with Prometheus and Grafana
-```kubectl apply -f monitoring/prometheus/prometheus.yaml
-kubectl apply -f monitoring/grafana/grafana-dashboards.yaml```
+`kubectl apply -f monitoring/prometheus/prometheus.yaml`
+`kubectl apply -f monitoring/grafana/grafana-dashboards.yaml`
 
 ## License
 MIT License
